@@ -1,0 +1,46 @@
+/* Task № 3 */
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1010px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.list__item:first-child {
+  margin-right: 10px;
+}
+
+.list__item:last-child {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list__image {
+  display: block;
+  width: 500px;
+}
+
+/* Task № 6 */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+/* Task № 8  */
+
+#boxes {
+  margin-top: 10px;
+}
