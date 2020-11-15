@@ -23,7 +23,7 @@ listRef.classList.add('list');
 
 const tagCreate = array => {
   
-  const tagLi = array.map(({ url, alt }) => {
+  const item = array.map(({ url, alt }) => {
     const tagLi = document.createElement('li');
     tagLi.classList.add('list__item');
     tagLi.insertAdjacentHTML('afterbegin', `<img class="${imageClass}" src="${url}" alt="${alt}">`)
@@ -31,7 +31,7 @@ const tagCreate = array => {
     return tagLi;
   });
 
-  return tagLi;
+  return item;
 };
 
 listRef.append(...tagCreate(images));
