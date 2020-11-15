@@ -39,4 +39,5 @@ btnRenderRef.addEventListener('click', () => {
 
 btnDestroyRef.addEventListener('click', () => {
     destroyBoxes();
+    inputRef.value = '';
 });
